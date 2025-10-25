@@ -42,7 +42,6 @@ def minesweeper():
             else:
                 pygame.draw.rect(screen, i[2], i[0])
 
-
     def check_collision():
         global game_on
         mouse_pos = pygame.mouse.get_pos()
